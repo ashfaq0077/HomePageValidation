@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-08T22:08:02 BDT" name="Suite" finished-at="2021-07-08T22:12:08 BDT" duration-ms="246215">
+    <groups>
+      <group name="regTest">
+        <method signature="T02_LoginPageValidation.loginpage()[pri:0, instance:Test_Case.T02_LoginPageValidation@2118cddf]" name="loginpage" class="Test_Case.T02_LoginPageValidation"/>
+        <method signature="T04_LoginPageValidationExcel.loginpage()[pri:0, instance:Test_Case.T04_LoginPageValidationExcel@17a7f733]" name="loginpage" class="Test_Case.T04_LoginPageValidationExcel"/>
+      </group> <!-- regTest -->
+      <group name="regrsstionTest">
+        <method signature="T05_LoginPageValidation.afterlogintitleValidation()[pri:4, instance:Test_Case.T05_LoginPageValidation@68567e20]" name="afterlogintitleValidation" class="Test_Case.T05_LoginPageValidation"/>
+        <method signature="T05_LoginPageValidation.loadloginURL()[pri:0, instance:Test_Case.T05_LoginPageValidation@68567e20]" name="loadloginURL" class="Test_Case.T05_LoginPageValidation"/>
+        <method signature="T05_LoginPageValidation.loginFunctionlity()[pri:2, instance:Test_Case.T05_LoginPageValidation@68567e20]" name="loginFunctionlity" class="Test_Case.T05_LoginPageValidation"/>
+        <method signature="T05_LoginPageValidation.loginpagetitleValidation()[pri:1, instance:Test_Case.T05_LoginPageValidation@68567e20]" name="loginpagetitleValidation" class="Test_Case.T05_LoginPageValidation"/>
+        <method signature="T05_LoginPageValidation.logoutFuntionlity()[pri:5, instance:Test_Case.T05_LoginPageValidation@68567e20]" name="logoutFuntionlity" class="Test_Case.T05_LoginPageValidation"/>
+      </group> <!-- regrsstionTest -->
+      <group name="smokeTest">
+        <method signature="T05_LoginPageValidation.afterlogintitleValidation()[pri:4, instance:Test_Case.T05_LoginPageValidation@68567e20]" name="afterlogintitleValidation" class="Test_Case.T05_LoginPageValidation"/>
+        <method signature="T05_LoginPageValidation.loadloginURL()[pri:0, instance:Test_Case.T05_LoginPageValidation@68567e20]" name="loadloginURL" class="Test_Case.T05_LoginPageValidation"/>
+        <method signature="T05_LoginPageValidation.loginFunctionlity()[pri:2, instance:Test_Case.T05_LoginPageValidation@68567e20]" name="loginFunctionlity" class="Test_Case.T05_LoginPageValidation"/>
+        <method signature="T05_LoginPageValidation.loginpagetitleValidation()[pri:1, instance:Test_Case.T05_LoginPageValidation@68567e20]" name="loginpagetitleValidation" class="Test_Case.T05_LoginPageValidation"/>
+        <method signature="T05_LoginPageValidation.logoutFuntionlity()[pri:5, instance:Test_Case.T05_LoginPageValidation@68567e20]" name="logoutFuntionlity" class="Test_Case.T05_LoginPageValidation"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2021-07-08T22:08:02 BDT" name="Test" finished-at="2021-07-08T22:12:08 BDT" duration-ms="246215">
+      <class name="Test_Case.T05_LoginPageValidation">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Test_Case.T05_LoginPageValidation@68567e20]" started-at="2021-07-08T22:08:05 BDT" name="openBrowser" finished-at="2021-07-08T22:08:07 BDT" duration-ms="1466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loadloginURL()[pri:0, instance:Test_Case.T05_LoginPageValidation@68567e20]" started-at="2021-07-08T22:10:23 BDT" name="loadloginURL" finished-at="2021-07-08T22:11:26 BDT" duration-ms="62688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadloginURL -->
+        <test-method signature="loginpagetitleValidation()[pri:1, instance:Test_Case.T05_LoginPageValidation@68567e20]" started-at="2021-07-08T22:11:26 BDT" name="loginpagetitleValidation" finished-at="2021-07-08T22:11:26 BDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetitleValidation -->
+        <test-method signature="loginFunctionlity()[pri:2, instance:Test_Case.T05_LoginPageValidation@68567e20]" started-at="2021-07-08T22:11:26 BDT" name="loginFunctionlity" finished-at="2021-07-08T22:11:28 BDT" duration-ms="2447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionlity -->
+        <test-method signature="afterlogintitleValidation()[pri:4, instance:Test_Case.T05_LoginPageValidation@68567e20]" started-at="2021-07-08T22:11:28 BDT" name="afterlogintitleValidation" finished-at="2021-07-08T22:11:28 BDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterlogintitleValidation -->
+        <test-method signature="logoutFuntionlity()[pri:5, instance:Test_Case.T05_LoginPageValidation@68567e20]" started-at="2021-07-08T22:11:28 BDT" name="logoutFuntionlity" finished-at="2021-07-08T22:11:29 BDT" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFuntionlity -->
+        <test-method is-config="true" signature="aftertearDown()[pri:0, instance:Test_Case.T05_LoginPageValidation@68567e20]" started-at="2021-07-08T22:12:08 BDT" name="aftertearDown" finished-at="2021-07-08T22:12:08 BDT" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertearDown -->
+      </class> <!-- Test_Case.T05_LoginPageValidation -->
+      <class name="Test_Case.T04_LoginPageValidationExcel">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Test_Case.T04_LoginPageValidationExcel@17a7f733]" started-at="2021-07-08T22:08:04 BDT" name="openBrowser" finished-at="2021-07-08T22:08:05 BDT" duration-ms="1407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginpage()[pri:0, instance:Test_Case.T04_LoginPageValidationExcel@17a7f733]" started-at="2021-07-08T22:09:38 BDT" name="loginpage" finished-at="2021-07-08T22:10:22 BDT" duration-ms="44085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test_Case.T04_LoginPageValidationExcel@17a7f733]" started-at="2021-07-08T22:10:22 BDT" name="tearDown" finished-at="2021-07-08T22:10:23 BDT" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test_Case.T04_LoginPageValidationExcel@17a7f733]" started-at="2021-07-08T22:12:08 BDT" name="tearDown" finished-at="2021-07-08T22:12:08 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Case.T04_LoginPageValidationExcel -->
+      <class name="Test_Case.T02_LoginPageValidation">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Test_Case.T02_LoginPageValidation@2118cddf]" started-at="2021-07-08T22:08:02 BDT" name="openBrowser" finished-at="2021-07-08T22:08:04 BDT" duration-ms="1890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginpage()[pri:0, instance:Test_Case.T02_LoginPageValidation@2118cddf]" started-at="2021-07-08T22:08:07 BDT" name="loginpage" finished-at="2021-07-08T22:09:37 BDT" duration-ms="90781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test_Case.T02_LoginPageValidation@2118cddf]" started-at="2021-07-08T22:09:37 BDT" name="tearDown" finished-at="2021-07-08T22:09:38 BDT" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test_Case.T02_LoginPageValidation@2118cddf]" started-at="2021-07-08T22:12:08 BDT" name="tearDown" finished-at="2021-07-08T22:12:08 BDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Case.T02_LoginPageValidation -->
+      <class name="Test_Case.T01_HomePageValidation">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Test_Case.T01_HomePageValidation@76ed1b7c]" started-at="2021-07-08T22:11:29 BDT" name="openBrowser" finished-at="2021-07-08T22:11:30 BDT" duration-ms="1388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="homepageValidation()[pri:0, instance:Test_Case.T01_HomePageValidation@76ed1b7c]" started-at="2021-07-08T22:11:30 BDT" name="homepageValidation" finished-at="2021-07-08T22:12:08 BDT" duration-ms="37457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test_Case.T01_HomePageValidation@76ed1b7c]" started-at="2021-07-08T22:12:08 BDT" name="tearDown" finished-at="2021-07-08T22:12:08 BDT" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test_Case.T01_HomePageValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
